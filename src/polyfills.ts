@@ -12,11 +12,11 @@
   * Opera), Edge on the desktop, and iOS and Chrome on mobile.
   *
   * Learn more in https://angular.io/guide/browser-support
- */
+*/
 
 /***************************************************************************************************
- * BROWSER POLYFILLS
- */
+* BROWSER POLYFILLS
+*/
 
 /**
   * By default, zone.js will patch all possible macroTask and DomEvents
@@ -40,7 +40,7 @@
   *
   *  (window as any).__Zone_enable_cross_context_check = true;
   *
- */
+*/
 
 import './zone-flags';
 
