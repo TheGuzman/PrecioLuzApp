@@ -15,7 +15,7 @@ jobs:
         run: npm ci
 
       - name: 🧪 Testing
-        run: npm ci:test
+        run: npm run ci:test
         env:
           PASSWORD_ENCRYPTION_ALGORITHM: ${{ secrets.PASSWORD_ENCRYPTION_ALGORITHM }}
           PASSWORD_ENCRYPTION_KEY: ${{ secrets.PASSWORD_ENCRYPTION_KEY }}
