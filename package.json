@@ -10,7 +10,9 @@
     "test": "ng test",
     "lint": "eslint --ext .ts,.tsx src",
     "prepare": "husky",
-    "format": "prettier --write \"**/*.{js,ts,vue,md,yaml,html,scss,json}\""
+    "format": "prettier --write \"**/*.{js,ts,vue,md,yaml,html,scss,json}\"",
+    "-----------CI-------": "-------------------------------------------------",
+    "ci:test": "npm run test -- --watch=false --browsers=chrome_ci_cd --code-coverage"
   },
   "private": true,
   "dependencies": {
