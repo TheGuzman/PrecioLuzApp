@@ -9,7 +9,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "eslint --ext .ts,.tsx src",
-    "prepare": "husky"
+    "prepare": "husky",
+    "format": "prettier --write \"**/*.{js,ts,vue,md,yaml,html,scss,json}\""
   },
   "private": true,
   "dependencies": {
